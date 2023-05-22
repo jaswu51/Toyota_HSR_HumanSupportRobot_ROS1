@@ -5,4 +5,4 @@ Toyota HSR - URDF robot models
 
 Merge with another repo https://github.com/ToyotaResearchInstitute/hsr_meshes, and you will have a complete visualization of HSR model.
 
-![alt text](/home/wuyi/Pictures/Screenshot from 2023-05-22 04-50-59.png)
+![unnamed](https://github.com/jaswu51/hsr_description/assets/91216581/d8fa799a-6072-4ada-b815-bedcc9975e8c)
