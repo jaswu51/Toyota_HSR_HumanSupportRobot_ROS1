@@ -11,6 +11,8 @@ Merge https://github.com/ToyotaResearchInstitute/hsr_description with another re
 # Learning notes
 
 understanding the .urdf
+* urdf basis
+http://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model#Collision
 
 make your own robot model
 
