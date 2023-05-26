@@ -12,7 +12,7 @@ source devel/setup.bash
 ```
 
 
-Debug (search jasmine)
+Debug (search 'jasmine' annotations)
 * File: display.launch. Changed the parameters related to .xacro
 * Replace torso.std's suffix to torso.stl
 
