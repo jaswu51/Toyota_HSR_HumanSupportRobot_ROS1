@@ -1,0 +1,1 @@
+/home/wuyi/r2/devel/.private/hsr_description/share/hsr_description/cmake/hsr_descriptionConfig-version.cmake

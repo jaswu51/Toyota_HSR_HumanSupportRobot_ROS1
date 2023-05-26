@@ -1,0 +1,6 @@
+devel_space: /home/wuyi/r2/devel
+install: false
+install_space: /home/wuyi/r2/install
+profile: default
+source_space: /home/wuyi/r2/src
+workspace: /home/wuyi/r2

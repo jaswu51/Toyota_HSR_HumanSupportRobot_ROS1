@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+5f6919473febdff57d203f5df638b2a3 /home/wuyi/r2/src/hsr_description/robots/hsrb4s.obj.urdf
+5a06d8ef619dc2e78f682bd8375db1be /home/wuyi/r2/src/hsr_description/robots/hsrb4s.urdf
+7a9c81db33b385b31edafee9a7cd3840 CMakeFiles/clean_test_results
+40aeec311a65e154f1fc5553328ee405 CMakeFiles/hsr_description_hsrb4s.obj_generate_urdf
+40aeec311a65e154f1fc5553328ee405 CMakeFiles/hsr_description_hsrb4s_generate_urdf

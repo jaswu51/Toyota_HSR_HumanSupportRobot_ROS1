@@ -1,0 +1,1 @@
+/home/wuyi/r2/devel/.private/hsr_meshes/share/hsr_meshes/cmake/hsr_meshesConfig.cmake
