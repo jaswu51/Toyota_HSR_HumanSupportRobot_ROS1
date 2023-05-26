@@ -1,19 +1,30 @@
 hsr_description
 ===============================================================================
 
-Toyota HSR - URDF robot models
+# Toyota HSR
 
-Merge https://github.com/ToyotaResearchInstitute/hsr_description with another repo https://github.com/ToyotaResearchInstitute/hsr_meshes, and you will have a complete visualization of HSR model.
+Take 2 repos as two packages in ROS1, build and source it. 
+* https://github.com/ToyotaResearchInstitute/hsr_description
+* https://github.com/ToyotaResearchInstitute/hsr_meshes
+```
+catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3
+source devel/setup.bash
+```
 
-![unnamed](https://github.com/jaswu51/hsr_description/assets/91216581/d8fa799a-6072-4ada-b815-bedcc9975e8c)
 
+Debug (search jasmine)
+* display.launch. Changed the parameters related to .xacro
+* replace torso.std to torso.stl
 
-# Learning notes
+### Visulization in Rviz (Ros1 noetic)
+```
+roslaunch hsr_description display.launch
+```
 
-understanding the .urdf
-* urdf basis
-http://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model#Collision
+![Screenshot from 2023-05-26 08-10-41](https://github.com/jaswu51/hsr_description/assets/91216581/5083af24-05ca-481b-b8aa-dd1c0e2d1f74)
 
-make your own robot model
+### Visulization in Isaac Sim
+* Issac Utils -> Work Flows -> URDF Importer
+* Issac Utils -> Work Flows -> Articulation Inspector -> Play(Space) -> Selection Panel -> Position/Velocity/Efforts Controllers
 
-wrap it in simple RL env
+![Screenshot from 2023-05-26 08-33-53](https://github.com/jaswu51/hsr_description/assets/91216581/53ab031e-dbb4-4900-9676-b4549f7f975a)
