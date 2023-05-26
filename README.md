@@ -13,8 +13,8 @@ source devel/setup.bash
 
 
 Debug (search jasmine)
-* display.launch. Changed the parameters related to .xacro
-* replace torso.std to torso.stl
+* File: display.launch. Changed the parameters related to .xacro
+* Replace torso.std's suffix to torso.stl
 
 ### Visulization in Rviz (Ros1 noetic)
 ```
