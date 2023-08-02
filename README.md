@@ -3,17 +3,18 @@ hsr_description
 
 # Toyota HSR
 
-Take 2 repos as two packages in ROS1, build and source it. 
+This repo combines the following two repos and gets a full 3D model of the HSR robot. 
 * https://github.com/ToyotaResearchInstitute/hsr_description
 * https://github.com/ToyotaResearchInstitute/hsr_meshes
+
+Clone this repo, build and source it. 
 ```
 catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3
 source devel/setup.bash
 ```
 
 
-Debug (search 'jasmine' annotations)
-* File: display.launch. Changed the parameters related to .xacro
+Debug
 * Replace torso.std's suffix to torso.stl
 
 ### Visulization in Rviz (Ros1 noetic)
